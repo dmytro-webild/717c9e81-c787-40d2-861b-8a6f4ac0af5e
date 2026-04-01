@@ -42,7 +42,7 @@ export default function LandingPage() {
       <HeroSplitKpi
       background={{ variant: "gradient-bars" }}
       title="The LNAV Boys Gausdal"
-      description="Excellence in every detail. A curated crew of professionals dedicated to the highest standards of industry performance and camaraderie."
+      description="Helt strålende gruppe med hovedfokus på hvor mange mg per pose. Kjenner du deg igjen? Bli med nå! "
       kpis={[
         { value: "100%", label: "Performance" },
         { value: "24/7", label: "Dedication" },
@@ -52,13 +52,13 @@ export default function LandingPage() {
       imageSrc="http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg?_wi=1"
       mediaAnimation="slide-up"
       avatars={[
-        { src: "http://img.b2bpic.net/free-photo/close-up-portrait-attractive-male-model-color-flash-light_158595-5111.jpg", alt: "Magnus" },
-        { src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4756.jpg", alt: "Ole" },
-        { src: "http://img.b2bpic.net/free-photo/closeup-portrait-handsome-confident-stylish-hipster-lambersexual-model-sexy-modern-man-dressed-elegant-black-suit-fashion-male-posing-studio-dark-background-spectacles_158538-21665.jpg", alt: "Kristoffer" },
-        { src: "http://img.b2bpic.net/free-photo/interested-handsome-black-man-looking-ecstatic-young-male-model-hat-sitting-stairs_197531-22072.jpg", alt: "Torben" },
-        { src: "http://img.b2bpic.net/free-photo/portrait-stylish-blond-bearded-male-dressed-suit-grey-background_613910-1267.jpg", alt: "Eirik" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775003942373-96z36x51.png", alt: "Magnus" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775003952420-p6utmii4.png", alt: "Ole" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775003961065-cq079mia.png", alt: "Kristoffer" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775003969615-mpdayxid.png", alt: "Torben" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775003977864-ch3khz3r.png", alt: "Eirik" },
       ]}
-      avatarText="Join our elite crew of 50+ experts"
+      avatarText="Join our elite crew of 5 experts"
       marqueeItems={[
         { type: "text", text: "Elite Performance" },
         { type: "text", text: "Uncompromising Quality" },
@@ -72,12 +72,12 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TestimonialAboutCard
       useInvertedBackground={false}
-      tag="Our Philosophy"
+      tag="Våres Filosofi "
       title="Beyond the Ordinary"
-      description="We are not just a group of individuals; we are a movement built on trust, luxury, and unrelenting excellence. Gausdal is where we redefine professionalism."
-      subdescription="Every project is a commitment. Every member is a master of their craft."
+      description="Vi er ikke bare en gruppe individer; vi er en bevegelse bygget på tillit, luksus og ubøyelig fortreffelighet. Gausdal er stedet hvor vi omdefinerer profesjonalitet. "
+      subdescription="Hvert prosjekt er et engasjement. Hvert medlem er en mester i sitt fag. "
       icon={Award}
-      imageSrc="http://img.b2bpic.net/free-photo/portrait-happy-businesswoman-office_23-2148452705.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775004141920-m1gqz97m.png"
       mediaAnimation="slide-up"
     />
   </div>
@@ -89,29 +89,30 @@ export default function LandingPage() {
       gridVariant="asymmetric-60-wide-40-narrow"
       useInvertedBackground={true}
       members={[
-        { id: "1", name: "Magnus", role: "Founder & Visionary", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-attractive-male-model-color-flash-light_158595-5111.jpg" },
-        { id: "2", name: "Ole", role: "Operational Lead", imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4756.jpg" },
-        { id: "3", name: "Kristoffer", role: "Design Strategist", imageSrc: "http://img.b2bpic.net/free-photo/closeup-portrait-handsome-confident-stylish-hipster-lambersexual-model-sexy-modern-man-dressed-elegant-black-suit-fashion-male-posing-studio-dark-background-spectacles_158538-21665.jpg" },
-        { id: "4", name: "Torben", role: "Execution Specialist", imageSrc: "http://img.b2bpic.net/free-photo/interested-handsome-black-man-looking-ecstatic-young-male-model-hat-sitting-stairs_197531-22072.jpg" },
-        { id: "5", name: "Eirik", role: "Creative Lead", imageSrc: "http://img.b2bpic.net/free-photo/portrait-stylish-blond-bearded-male-dressed-suit-grey-background_613910-1267.jpg" },
-        { id: "6", name: "Sindre", role: "Technical Director", imageSrc: "http://img.b2bpic.net/free-photo/handsome-groom-classy-black-suit-stands-dark-room_8353-7083.jpg" },
+        { id: "1", name: "Theodor ", role: " G3 vitenskaper", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775004209225-sokffy0v.png" },
+        { id: "2", name: "Lars ", role: "Autistisk mental leder ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775004251885-n5tac8ee.png" },
+        { id: "3", name: "", role: "ATV-ragger ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775004290895-stv45x6u.png" },
+        { id: "4", name: "Varg ", role: "Dritt 125 motorsykkel ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775004368607-nkvraz7x.png" },
+        { id: "5", name: "Johannes ", role: "Sterk, søt og alt. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775004398962-rf19l1px.png" },
+        { id: "6", name: "Minecraft ", role: "Adolf Hitler ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BjXAnoworSdu1tQ699nIwLVcAX/uploaded-1775004468516-jdq66kdx.png" },
       ]}
       title="Meet the Boys"
-      description="The foundation of our success. Driven, bold, and unapologetically professional."
+      description="Grunnlaget for vår suksess. 
+Drevet, dristig og ubeskjedent profesjonell. "
     />
   </div>
 
   <div id="ecommerce" data-section="ecommerce">
-      <ProductCatalogItem product={{ id: "1", name: "Exclusive LNAV Shirt", price: "$99", imageSrc: "http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg?_wi=2", rating: 5, category: "Apparel" }} />
+      <ProductCatalogItem product={{ id: "1", name: "Exclusive LNAV Signert Schni", price: "$929", imageSrc: "http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg?_wi=2", rating: 5, category: "Apparel" }} />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
       background={{ variant: "sparkles-gradient" }}
-      text="Think you have what it takes? Submit your application and wait for the inevitable rejection letter. Or maybe, just maybe, surprise us."
+      text="Tror du at du har det som trengs? Send inn søknaden din og vent på det uunngåelige avslagsbrevet. Eller kanskje, bare kanskje, overrask oss. "
       buttons={[
-        { text: "Apply Now", href: "#" },
+        { text: "Søk Nå! ", href: "#" },
       ]}
     />
   </div>
