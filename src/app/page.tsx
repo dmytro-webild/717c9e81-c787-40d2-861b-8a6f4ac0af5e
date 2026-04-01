@@ -49,7 +49,7 @@ export default function LandingPage() {
         { value: "1st", label: "Standard" },
       ]}
       enableKpiAnimation={true}
-      imageSrc="http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg?_wi=1"
       mediaAnimation="slide-up"
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/close-up-portrait-attractive-male-model-color-flash-light_158595-5111.jpg", alt: "Magnus" },
@@ -102,7 +102,7 @@ export default function LandingPage() {
   </div>
 
   <div id="ecommerce" data-section="ecommerce">
-      <ProductCatalogItem product={{ id: "1", name: "Exclusive LNAV Shirt", price: "$99", imageSrc: "http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg", rating: 5, category: "Apparel" }} />
+      <ProductCatalogItem product={{ id: "1", name: "Exclusive LNAV Shirt", price: "$99", imageSrc: "http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg?_wi=2", rating: 5, category: "Apparel" }} />
   </div>
 
   <div id="contact" data-section="contact">
