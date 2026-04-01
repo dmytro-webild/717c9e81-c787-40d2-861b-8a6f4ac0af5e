@@ -29,61 +29,42 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",          id: "hero"},
-        {
-          name: "The Crew",          id: "crew"},
-        {
-          name: "Join Us",          id: "contact"},
+        { name: "Home", id: "hero" },
+        { name: "The Crew", id: "crew" },
+        { name: "Join Us", id: "contact" },
       ]}
       brandName="LNAV Boys"
-      button={{
-          text: "Get Started",          href: "#contact"
-      }}
+      button={{ text: "Get Started", href: "#contact" }}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroSplitKpi
-      background={{
-        variant: "gradient-bars"}}
+      background={{ variant: "gradient-bars" }}
       title="The LNAV Boys Gausdal"
       description="Excellence in every detail. A curated crew of professionals dedicated to the highest standards of industry performance and camaraderie."
       kpis={[
-        {
-          value: "100%",          label: "Performance"},
-        {
-          value: "24/7",          label: "Dedication"},
-        {
-          value: "1st",          label: "Standard"},
+        { value: "100%", label: "Performance" },
+        { value: "24/7", label: "Dedication" },
+        { value: "1st", label: "Standard" },
       ]}
       enableKpiAnimation={true}
       imageSrc="http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg"
       mediaAnimation="slide-up"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/close-up-portrait-attractive-male-model-color-flash-light_158595-5111.jpg",          alt: "Magnus"},
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4756.jpg",          alt: "Ole"},
-        {
-          src: "http://img.b2bpic.net/free-photo/closeup-portrait-handsome-confident-stylish-hipster-lambersexual-model-sexy-modern-man-dressed-elegant-black-suit-fashion-male-posing-studio-dark-background-spectacles_158538-21665.jpg",          alt: "Kristoffer"},
-        {
-          src: "http://img.b2bpic.net/free-photo/interested-handsome-black-man-looking-ecstatic-young-male-model-hat-sitting-stairs_197531-22072.jpg",          alt: "Torben"},
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-stylish-blond-bearded-male-dressed-suit-grey-background_613910-1267.jpg",          alt: "Eirik"},
+        { src: "http://img.b2bpic.net/free-photo/close-up-portrait-attractive-male-model-color-flash-light_158595-5111.jpg", alt: "Magnus" },
+        { src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4756.jpg", alt: "Ole" },
+        { src: "http://img.b2bpic.net/free-photo/closeup-portrait-handsome-confident-stylish-hipster-lambersexual-model-sexy-modern-man-dressed-elegant-black-suit-fashion-male-posing-studio-dark-background-spectacles_158538-21665.jpg", alt: "Kristoffer" },
+        { src: "http://img.b2bpic.net/free-photo/interested-handsome-black-man-looking-ecstatic-young-male-model-hat-sitting-stairs_197531-22072.jpg", alt: "Torben" },
+        { src: "http://img.b2bpic.net/free-photo/portrait-stylish-blond-bearded-male-dressed-suit-grey-background_613910-1267.jpg", alt: "Eirik" },
       ]}
       avatarText="Join our elite crew of 50+ experts"
       marqueeItems={[
-        {
-          type: "text",          text: "Elite Performance"},
-        {
-          type: "text",          text: "Uncompromising Quality"},
-        {
-          type: "text",          text: "Luxury Standard"},
-        {
-          type: "text",          text: "Global Reach"},
-        {
-          type: "text",          text: "Innovation Driven"},
+        { type: "text", text: "Elite Performance" },
+        { type: "text", text: "Uncompromising Quality" },
+        { type: "text", text: "Luxury Standard" },
+        { type: "text", text: "Global Reach" },
+        { type: "text", text: "Innovation Driven" },
       ]}
     />
   </div>
@@ -108,18 +89,12 @@ export default function LandingPage() {
       gridVariant="asymmetric-60-wide-40-narrow"
       useInvertedBackground={true}
       members={[
-        {
-          id: "1",          name: "Magnus",          role: "Founder & Visionary",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-attractive-male-model-color-flash-light_158595-5111.jpg"},
-        {
-          id: "2",          name: "Ole",          role: "Operational Lead",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4756.jpg"},
-        {
-          id: "3",          name: "Kristoffer",          role: "Design Strategist",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-portrait-handsome-confident-stylish-hipster-lambersexual-model-sexy-modern-man-dressed-elegant-black-suit-fashion-male-posing-studio-dark-background-spectacles_158538-21665.jpg"},
-        {
-          id: "4",          name: "Torben",          role: "Execution Specialist",          imageSrc: "http://img.b2bpic.net/free-photo/interested-handsome-black-man-looking-ecstatic-young-male-model-hat-sitting-stairs_197531-22072.jpg"},
-        {
-          id: "5",          name: "Eirik",          role: "Creative Lead",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-stylish-blond-bearded-male-dressed-suit-grey-background_613910-1267.jpg"},
-        {
-          id: "6",          name: "Sindre",          role: "Technical Director",          imageSrc: "http://img.b2bpic.net/free-photo/handsome-groom-classy-black-suit-stands-dark-room_8353-7083.jpg"},
+        { id: "1", name: "Magnus", role: "Founder & Visionary", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-attractive-male-model-color-flash-light_158595-5111.jpg" },
+        { id: "2", name: "Ole", role: "Operational Lead", imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4756.jpg" },
+        { id: "3", name: "Kristoffer", role: "Design Strategist", imageSrc: "http://img.b2bpic.net/free-photo/closeup-portrait-handsome-confident-stylish-hipster-lambersexual-model-sexy-modern-man-dressed-elegant-black-suit-fashion-male-posing-studio-dark-background-spectacles_158538-21665.jpg" },
+        { id: "4", name: "Torben", role: "Execution Specialist", imageSrc: "http://img.b2bpic.net/free-photo/interested-handsome-black-man-looking-ecstatic-young-male-model-hat-sitting-stairs_197531-22072.jpg" },
+        { id: "5", name: "Eirik", role: "Creative Lead", imageSrc: "http://img.b2bpic.net/free-photo/portrait-stylish-blond-bearded-male-dressed-suit-grey-background_613910-1267.jpg" },
+        { id: "6", name: "Sindre", role: "Technical Director", imageSrc: "http://img.b2bpic.net/free-photo/handsome-groom-classy-black-suit-stands-dark-room_8353-7083.jpg" },
       ]}
       title="Meet the Boys"
       description="The foundation of our success. Driven, bold, and unapologetically professional."
@@ -127,18 +102,16 @@ export default function LandingPage() {
   </div>
 
   <div id="ecommerce" data-section="ecommerce">
-      <ProductCatalogItem product={{ name: "Exclusive LNAV Shirt", description: "High quality material for the elite.", price: "$99", image: "http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg", rating: 5, category: "Apparel" }} />
+      <ProductCatalogItem product={{ id: "1", name: "Exclusive LNAV Shirt", price: "$99", imageSrc: "http://img.b2bpic.net/free-photo/water-texture_23-2148121772.jpg", rating: 5, category: "Apparel" }} />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "sparkles-gradient"}}
+      background={{ variant: "sparkles-gradient" }}
       text="Think you have what it takes? Submit your application and wait for the inevitable rejection letter. Or maybe, just maybe, surprise us."
       buttons={[
-        {
-          text: "Apply Now",          href: "#"},
+        { text: "Apply Now", href: "#" },
       ]}
     />
   </div>
@@ -147,22 +120,8 @@ export default function LandingPage() {
       <FooterMedia
       imageSrc="http://img.b2bpic.net/free-vector/professional-business-card-template_23-2147967328.jpg"
       columns={[
-        {
-          title: "Company",          items: [
-            {
-              label: "About Us",              href: "#"},
-            {
-              label: "Careers",              href: "#"},
-          ],
-        },
-        {
-          title: "Support",          items: [
-            {
-              label: "Contact",              href: "#"},
-            {
-              label: "Privacy",              href: "#"},
-          ],
-        },
+        { title: "Company", items: [{ label: "About Us", href: "#" }, { label: "Careers", href: "#" }] },
+        { title: "Support", items: [{ label: "Contact", href: "#" }, { label: "Privacy", href: "#" }] },
       ]}
       copyrightText="© 2025 LNAV Boys Gausdal"
     />
